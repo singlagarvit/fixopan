@@ -594,12 +594,126 @@ footer .container-fluid{
     margin-top: 5px;
     text-align: center;
 }
+
+.about-banner{
+    background-image: url('../img/about-bg.jpg');
+    background-size: cover;
+    height: 301px;
+    background-repeat: no-repeat;
+    margin-top: 78px;
+    padding: 0;
+    margin-right: 0;
+}
+
+.about-banner span{
+    position: relative;
+    font-size: 50px;
+    font-weight: bolder;
+    top: 39%;
+    padding: 0 0 0 15%;
+}
+
+.about-content{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.about-content ul li{
+    font-size: 20px;
+}
+
+.about-content .row{
+    margin-bottom: 30px;
+}
+
+.advantages-banner{
+    background-image: url('../img/advantages-bg.jpg');
+    background-size: cover;
+    height: 301px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 78px;
+    padding: 0;
+}
+
+.advantages-banner span{
+    position: relative;
+    font-size: 50px;
+    font-weight: bolder;
+    top: 39%;
+    padding: 0 0 0 15%;
+}
+
+.advantages-content{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.advantages-content span{
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: bolder;
+    background-color: red;
+    padding: 2px 5px 2px 5px;
+    color: white;
+}
+
+.product-1-banner{
+    background-image: url('../img/products-bg.jpg');
+    background-size: cover;
+    height: 301px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 78px;
+    padding: 0;
+}
+
+.product-1-banner span{
+    position: relative;
+    font-size: 50px;
+    font-weight: bolder;
+    top: 39%;
+    padding: 0 0 0 15%;
+}
+
+.product-1-content{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.product-1-content strong{
+    font-size: 20px
+}
+
+.product-1-content ul{
+    margin-top: 10px;
+}
+
+.product-1-content ul li{
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+.image-mobile{
+    display: none;
+}
+
 @media only screen and (max-width: 600px){
-    .adbazzar{
-        margin-top: 0;
+    .product-1-banner{
+        text-align: left;
+        padding-left: 4%;
     }
-    .adbazzar p{
-        float: left;
-        margin-right: 0;
+    .product-1-banner span{
+        position: relative;
+        font-size: 28px;
+        font-weight: bolder;
+        top: 15%;
+        padding: 0;
+    }
+    .image-mobile{
+        display: block;
+    }
+    .image-desktop{
+        display: none;
     }
 }
